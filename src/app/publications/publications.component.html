@@ -1,0 +1,5 @@
+<div class="categories">
+  <p class="categories_link" *ngFor="let publication of publications" (click)="goToCategoryProducts(publication)">
+    {{publication.name}}
+  </p>
+</div>

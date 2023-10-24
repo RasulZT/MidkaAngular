@@ -1,0 +1,18 @@
+<div class="mydropdown d-flex">
+  <div class="mydrop" #textDropdown (click)="toggleDropdown()">
+    <p class="my_txt">{{label}}</p>
+    <img class="img_arrow" [ngStyle]="{'transform': isDropDownOpen?'rotate(180deg)':''}"
+         src="assets/svg/down-arrow-svgrepo-com.svg"
+         width="25px" height="20px">:
+  </div>
+  <ul class="list-group" *ngIf="isDropDownOpen" [style]="getDropdownStyle()">
+<!--    <li-->
+<!--&lt;!&ndash;      [ngClass]="item.isActive ? 'activeOption' : ''"&ndash;&gt;-->
+<!--      (click)="selectOption($event, index)"-->
+<!--      *ngFor="let item of options; let index = index"-->
+<!--      class="item list-group-item"-->
+<!--    >-->
+<!--&lt;!&ndash;      {{ item.value }}&ndash;&gt;-->
+<!--    </li>-->
+  </ul>
+</div>

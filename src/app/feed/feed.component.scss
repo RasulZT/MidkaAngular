@@ -1,0 +1,29 @@
+.main_box{
+  display: flex;
+  flex-direction: row;
+  width: 150vh;
+  margin-top: 30px;
+  padding: 20px;
+  margin-left: 30px;
+
+}
+.info_box{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+
+}
+.img_box{
+  width: 70%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title{
+  font-size: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -1,0 +1,23 @@
+<div class="products">
+  <p class="products_title">
+    Новости друзей
+  </p>
+  <div class="products_container">
+    <div class="products_item" *ngFor="let item of products;let i = index">
+      <img class="products_item_remove" src="data:image/png;base64,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" style="width: 50px;height: 50px" (click)="removeProduct(i)">
+      <p class="products_item_name" (click)="goToRealPage(i)">
+        {{item.name}}
+      </p>
+      <img class="products_item_image" (click)="goToRealPage(i)" src="{{item.currectImg}}">
+      <p class="products_item_description">
+        {{item.description}}
+      </p>
+      <p class="products_item_raiting">
+        {{item.raiting}}
+      </p>
+      <p class="products_item_raiting">
+        Likes : {{item.likes}}
+      </p>
+    </div>
+  </div>
+</div>
